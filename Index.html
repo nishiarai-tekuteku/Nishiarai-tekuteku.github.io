@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>足立・西新井てくてく日記</title>
+<meta name="description" content="足立区・西新井まわりを歩いて見つけた場所や味を、写真とメモで残す個人ブログです。西新井大師、グルメ、散歩コースを紹介します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- ▼ GA4を設定したら、下のコメントを外して G-XXXXXXXXXX を自分の測定IDに書き換える -->
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
+<style>
+  :root {
+    --bg: #f2f6f5;
+    --ink: #1f2d2b;
+    --sub: #55645f;
+    --route: #2e6f8e;
+    --mark: #e3a21a;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Zen Maru Gothic", "Hiragino Maru Gothic ProN", "Hiragino Sans", sans-serif;
+    line-height: 1.9;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 56px 0 32px; }
+  h1 { font-size: 2rem; line-height: 1.4; margin: 0 0 16px; letter-spacing: .04em; }
+  .lead { color: var(--sub); margin: 0; }
+  h2 { font-size: 1.15rem; margin: 48px 0 20px; }
+
+  /* 散歩ルート: 記事が順に並ぶので、点線の道でつなぐ */
+  .route { list-style: none; margin: 0; padding: 0 0 0 28px; border-left: 3px dotted var(--route); }
+  .route li { position: relative; padding: 0 0 28px 16px; }
+  .route li::before {
+    content: ""; position: absolute; left: -38px; top: 6px;
+    width: 18px; height: 18px; border-radius: 50%;
+    background: var(--mark); border: 3px solid var(--bg);
+  }
+  .route h3 { margin: 0 0 4px; font-size: 1.05rem; }
+  .route p { margin: 0; color: var(--sub); font-size: .95rem; }
+  .soon { display: inline-block; margin-left: 8px; font-size: .75rem; color: var(--route); border: 1px solid var(--route); border-radius: 99px; padding: 0 8px; vertical-align: middle; }
+
+  .about { background: var(--card); border-radius: 12px; padding: 20px 22px; }
+  .about p { margin: 0; }
+  footer { padding: 40px 0 48px; color: var(--sub); font-size: .85rem; }
+  a { color: var(--route); }
+  a:focus-visible { outline: 3px solid var(--mark); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>足立・西新井<br>てくてく日記</h1>
+    <p class="lead">足立区・西新井のまわりを歩いて見つけた場所や味を、写真とメモで残していく個人ブログです。</p>
+  </header>
+
+  <main>
+    <h2>これから歩くところ</h2>
+    <ol class="route">
+      <li>
+        <h3>西新井大師の楽しみ方<span class="soon">準備中</span></h3>
+        <p>お参りの前後に立ち寄りたい場所と、歩くときのポイントをまとめます。</p>
+      </li>
+      <li>
+        <h3>西新井で食べたいもの<span class="soon">準備中</span></h3>
+        <p>実際に行ったお店を、感想つきで紹介します。</p>
+      </li>
+      <li>
+        <h3>西新井駅から歩くモデルコース<span class="soon">準備中</span></h3>
+        <p>駅を起点に、半日で回れる散歩コースを作ります。</p>
+      </li>
+    </ol>
+
+    <h2>運営者について</h2>
+    <div class="about">
+      <p>【ここに自己紹介を書く。例:なぜ西新井を紹介したいのか、どんな頻度で更新するのか】</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 足立・西新井てくてく日記</p>
+    <p>お問い合わせ:【メールアドレスまたはフォームのURLを入れる】</p>
+  </footer>
+</div>
+</body>
+</html>
